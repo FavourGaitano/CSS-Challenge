@@ -467,12 +467,56 @@
     font-size: 14px;
 } 
 .contact-us{
-    height: 10rem;
+    height: 7.5rem;
     background-color:white;
     display:flex;
     flex-wrap:wrap;
     padding-inline: 11rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    
+}
+.contacts{
+    font-family:"Montserrat";
+    font-size: 15px;
+    
+}
+.contacts >p{
+    color: grey;
+    padding-bottom: 0.8rem;
+    font-size: 13px;
+}
+.call >p{
+    color: grey;
+    padding-bottom: 0.8rem;
+    font-size: 13px; 
+}
+.icons{
+    color:#409cf1
+}
+.call{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 0.5rem; 
+}
+.socials{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-inline: 11rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+.socials >p{
+    font-family:"Montserrat";
+    color: grey;
+    font-size: 13px; 
+    font-weight:700px;
+}
+.media{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 0.5rem; 
 }
